@@ -1,0 +1,179 @@
+.todoText {
+    color: #2485bf;
+    display: inline;
+}
+.todoList {
+    width: 15em;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+.todos {
+    width: 95%;
+    height: 2em;
+    background: #cecccc;
+    border: 2px solid;
+    border-radius: 8px;
+    margin: 6px;
+    display: block;
+}
+.inputBox {
+    width: 25em;
+    height: 7em;
+    margin: 0 auto;
+}
+.inputWrapper {
+    width: 99%;
+    height: 3em;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 35px;
+}
+.inputSize {
+    width: 99%;
+    height: 3em;
+    border-radius: 28px;
+}
+.deleteIcon {
+   /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    height: 54vh;
+    background: url(../../../public/images/trash2.png) no-repeat;
+    background-size: 5%;
+    overflow: hidden;
+    background-image: url("../../../public/images/trash2.png");
+    background-repeat: no-repeat;
+    min-width: 52px;
+    min-height: 20px;
+    width:52px;
+    height: 20px;
+    border:0;*/
+    width: 10px;
+}
+.editIcon {
+    width: 10px;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    height: 54vh;
+    background: url(../../../public/images/edit.png) no-repeat;
+    background-size: 5%;
+    overflow: hidden;*/
+}
+
+
+/**/
+div.logo {
+    display: inline;
+    position: fixed;
+    /*z-index: 1000;*/
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    /* width: 100%; */
+    /*height: 100vh;*/
+    width: 100%;
+    background: url(http://i.imgur.com/Eor57Ae.jpg) no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    /* float: left; */
+}
+
+/*div.logo {
+    background: url('http://i.imgur.com/Eor57Ae.jpg') no-repeat fixed center center;
+    background-size: cover;
+    font-family: Montserrat;
+}
+
+.logo {
+    width: 213px;
+    height: 36px;
+    background: url('http://i.imgur.com/fd8Lcso.png') no-repeat;
+    margin: 30px auto;
+}*/
+
+.login-block {
+    width: 320px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border-top: 5px solid #ff656c;
+    margin: 0 auto;
+    position: relative;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.login-block input#username {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#username:focus {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password:focus {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #ff656c;
+}
+
+.login-block button {
+    width: 100%;
+    height: 40px;
+    background: #ff656c;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #e15960;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-block button:hover {
+    background: #ff7b81;
+}
